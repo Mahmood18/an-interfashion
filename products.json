@@ -1,0 +1,205 @@
+{
+  "categories": [
+    {
+      "id": "men",
+      "name": "Men's",
+      "subcategories": [
+        {
+          "id": "hoodies-sweatshirts",
+          "name": "Hoodies & Sweatshirts"
+        },
+        {
+          "id": "tees-polos",
+          "name": "T-Shirts & Polos"
+        },
+        {
+          "id": "pants-shorts",
+          "name": "Pants & Shorts"
+        },
+        {
+          "id": "sleepwear",
+          "name": "Sleepwear"
+        },
+        {
+          "id": "underwear",
+          "name": "Underwear"
+        }
+      ]
+    },
+    {
+      "id": "women",
+      "name": "Women's",
+      "subcategories": [
+        {
+          "id": "fleece-suits",
+          "name": "Fleece Suits"
+        },
+        {
+          "id": "leggings",
+          "name": "Leggings"
+        },
+        {
+          "id": "nightwear-tops",
+          "name": "Nightwear & Tops",
+          "onRequest": true
+        }
+      ]
+    },
+    {
+      "id": "bar-mops",
+      "name": "Bar Mops",
+      "subcategories": [
+        {
+          "id": "bar-mops",
+          "name": "Bar Mops"
+        },
+        {
+          "id": "aprons",
+          "name": "Bib & Bar Aprons"
+        }
+      ]
+    },
+    {
+      "id": "towels",
+      "name": "Towels",
+      "subcategories": [
+        {
+          "id": "kitchen-towels",
+          "name": "Kitchen Towels"
+        },
+        {
+          "id": "institutional-bath-towels",
+          "name": "Institutional/Bath Towels"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "mens-pullover-hoodie",
+      "name": "Men's Pullover Hoodie",
+      "category": "men",
+      "subcategory": "hoodies-sweatshirts"
+    },
+    {
+      "id": "mens-fleece-mock-neck",
+      "name": "Men's Fleece Mock Neck",
+      "category": "men",
+      "subcategory": "hoodies-sweatshirts"
+    },
+    {
+      "id": "mens-sweatshirt",
+      "name": "Men's Sweatshirt",
+      "category": "men",
+      "subcategory": "hoodies-sweatshirts"
+    },
+    {
+      "id": "boys-hoodie",
+      "name": "Boy's Hoodie",
+      "category": "men",
+      "subcategory": "hoodies-sweatshirts"
+    },
+    {
+      "id": "mens-mock-neck-waffle",
+      "name": "Men's Mock Neck (Waffle)",
+      "category": "men",
+      "subcategory": "hoodies-sweatshirts"
+    },
+    {
+      "id": "mens-t-shirt",
+      "name": "Men's T-Shirt",
+      "category": "men",
+      "subcategory": "tees-polos"
+    },
+    {
+      "id": "mens-tank-top",
+      "name": "Men's Tank Top",
+      "category": "men",
+      "subcategory": "tees-polos"
+    },
+    {
+      "id": "mens-polo-shirt",
+      "name": "Men's Polo Shirt",
+      "category": "men",
+      "subcategory": "tees-polos"
+    },
+    {
+      "id": "pk-mens-polo",
+      "name": "PK Men's Polo",
+      "category": "men",
+      "subcategory": "tees-polos"
+    },
+    {
+      "id": "mens-jog-pant",
+      "name": "Men's Jog Pant",
+      "category": "men",
+      "subcategory": "pants-shorts"
+    },
+    {
+      "id": "mens-jogging-shorts",
+      "name": "Men's Jogging Shorts",
+      "category": "men",
+      "subcategory": "pants-shorts"
+    },
+    {
+      "id": "mens-cargo-pant",
+      "name": "Men's Cargo Pant",
+      "category": "men",
+      "subcategory": "pants-shorts"
+    },
+    {
+      "id": "mens-pajama-pant",
+      "name": "Men's Pajama Pant",
+      "category": "men",
+      "subcategory": "sleepwear"
+    },
+    {
+      "id": "mens-pajama-set",
+      "name": "Men's Pajama Set",
+      "category": "men",
+      "subcategory": "sleepwear"
+    },
+    {
+      "id": "mens-boxer",
+      "name": "Men's Boxer",
+      "category": "men",
+      "subcategory": "underwear"
+    },
+    {
+      "id": "ladies-fleece-suit",
+      "name": "Ladies Fleece Suit",
+      "category": "women",
+      "subcategory": "fleece-suits"
+    },
+    {
+      "id": "ladies-legging",
+      "name": "Ladies Legging",
+      "category": "women",
+      "subcategory": "leggings"
+    },
+    {
+      "id": "bar-mop",
+      "name": "Bar Mops",
+      "category": "bar-mops",
+      "subcategory": "bar-mops"
+    },
+    {
+      "id": "bib-bar-apron",
+      "name": "Bib / Bar Apron",
+      "category": "bar-mops",
+      "subcategory": "aprons"
+    },
+    {
+      "id": "kitchen-towel",
+      "name": "Kitchen Towel",
+      "category": "towels",
+      "subcategory": "kitchen-towels"
+    },
+    {
+      "id": "institutional-bath-towel",
+      "name": "Institutional / Bath Towels",
+      "category": "towels",
+      "subcategory": "institutional-bath-towels"
+    }
+  ]
+}

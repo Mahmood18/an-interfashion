@@ -1,15 +1,8 @@
-﻿
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api"
-    }
-  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
   "functions": {
     "api/index.js": {
-      "includeFiles": "**/*"
+      "includeFiles": "{index.html,products.json,hero-bedroom.jpg,images/**}"
     }
   }
 }

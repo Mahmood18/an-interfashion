@@ -101,7 +101,7 @@ function sendImage(request, response, file, contentType, cacheControl) {
   return response.end(fs.readFileSync(file));
 }
 
-const server = http.createServer((request, response) => {
+function handleRequest(request, response) {
   const url = new URL(request.url, `http://${request.headers.host || 'localhost'}`);
 
   if (url.pathname.startsWith('/api/')) {
@@ -188,8 +188,13 @@ const server = http.createServer((request, response) => {
     'text/html; charset=utf-8',
     pageSlug === '' || pageBySlug.has(pageSlug) ? pageShell : siteHtml
   );
-});
+}
 
-server.listen(port, () => {
-  console.log(`A.N. Inter Fashions running at http://localhost:${port}`);
-});
+// Vercel imports this file as a serverless handler; locally it starts a normal server.
+module.exports = handleRequest;
+
+if (require.main === module) {
+  http.createServer(handleRequest).listen(port, () => {
+    console.log(`A.N. Inter Fashions running at http://localhost:${port}`);
+  });
+}
